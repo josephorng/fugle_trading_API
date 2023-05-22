@@ -10,7 +10,7 @@ Original file is located at
 """
 
 # pip install 需要的套件
-!pip install fugle-trade -U
+# !pip install fugle-trade -U
 
 # 安裝富果交易 API sdk
 from configparser import ConfigParser
@@ -95,7 +95,7 @@ sdk.cancel_order(orderResult[0])
 
 # pip install fugle-realtime API library from https://github.com/fugle-dev/fugle-realtime-python
 
-!pip install fugle-realtime
+# !pip install fugle-realtime
 
 # 安裝 富果行情 API sdk
 from fugle_realtime import HttpClient

@@ -2,7 +2,7 @@
 """# 安裝相關套件"""
 
 # 安裝 行情 API sdk
-!pip install fugle-realtime
+# !pip install fugle-realtime
 
 # 取得 fugle http API 
 from fugle_realtime import HttpClient
